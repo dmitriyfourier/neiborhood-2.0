@@ -36,7 +36,7 @@ docpadConfig = {
 			vk_link: "https://vk.com/neighborliness"
 			twitter_link: "https://vk.com/neighborliness"
 			fb_link: "https://www.facebook.com/neighborliness.ru"
-			inst_link: "https://vk.com/neighborliness"
+			inst_link: "https://instagram.com/neighborliness.ru"
 
 			# Author name used in copyrights and meta data
 			author: "Дмитрий Фурье"
