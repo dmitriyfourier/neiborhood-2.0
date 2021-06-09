@@ -1,0 +1,132 @@
+---
+layout: 'homepage'
+title: 'Дмитрий Фурье'
+description: 'Финансовый директор, который делится наблюдениями с миром'
+og_image: '/i/og/og-index.png'
+---
+
+<%- @partial('about') %>
+<section class="" id="projects">
+    <div class="row row-bottom-sm row-between-sm">
+        <div class="col-xs-12 col-sm-shrink">
+            <h1 class="space-in-right-mili-lg">Наговорил</h1>
+            <p>Записываю подкасты на самые разные темы:</p>
+        </div>
+        <div class="col-xs-12 col-sm-shrink">
+            <!--Some block-->
+        </div>
+    </div>
+
+    <div class="row space-out-top-base-xs">
+        <section class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 col-flex-sm">
+            <a class="flex-grow-sm project-card project-card-link link col-flex-xs" href="/podcasts/noboring-finance/">
+                <p><img src="/i/podcast-images/noboring-finance-pod-orig.jpg" alt=""></p>
+                <h4 class="project-card-title">Нескучные финансы</h4>
+                <p class="project-card-details">Подкаст об управлении бизнесом на основе цифр</p>
+                <p class="space-auto-top-sm space-out-bottom-nano-xs">
+                    <img src="/i/badges/on air.png" alt="в эфире" width="100">
+                </p>
+            </a>
+        </section>
+        <section class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 col-flex-sm">
+            <a class="flex-grow-sm project-card project-card-link link col-flex-xs" href="/podcasts/young-finance/">
+                <p><img src="/i/podcast-images/young-finance-pod-orig.jpg" alt=""></p>
+                <h4 class="project-card-title">Собрались два нищеброда!</h4>
+                <p class="project-card-details">Подкаст о финансовой грамотности для тех, кто молод</p>
+                <p class="space-auto-top-sm space-out-bottom-nano-xs">
+                    <img src="/i/badges/pause.png" alt="На паузе" width="100">
+                </p>
+            </a>
+        </section>
+        <section class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 col-flex-sm">
+            <a class="flex-grow-sm project-card project-card-link link col-flex-xs" href="/podcasts/pervoe-mesto/">
+                <p><img src="/i/podcast-images/pervoe-mesto-pod-orig.png" alt=""></p>
+                <h4 class="project-card-title">Первое место</h4>
+                <p class="project-card-details">Подкаст о том, как управлять многоквартирным домом</p>
+                <p class="space-auto-top-sm space-out-bottom-nano-xs">
+                    <img src="/i/badges/soon.png" alt="Скоро" width="100">
+                </p>
+            </a>
+        </section>
+        <section class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 col-flex-sm">
+            <a class="flex-grow-sm project-card project-card-link link col-flex-xs" href="/podcasts/ne-nauchili/">
+                <p><img src="/i/podcast-images/ne-nauchili-pod-orig.png" alt=""></p>
+                <h4 class="project-card-title">Этому не научили в школе</h4>
+                <p class="project-card-details">Подкаст о вещах, которым не научили в школе, но которые пригодятся в жизни</p>
+                <p class="space-auto-top-sm space-out-bottom-nano-xs">
+                    <img src="/i/badges/soon.png" alt="Скоро" width="100">
+                </p>
+            </a>
+        </section>
+    </div>
+</section>
+
+
+        </div>
+    </div>
+    <div class="blogwall space-minus-h-mili-xs space-out-h-zero-sm space-out-top-micro-xs">
+        <% for page in @getCollection("articles").toJSON().slice(0,1): %>
+            <section class="blogwall-item blogwall-gridcell blogwall-gridcell-promo blogwall-fauxlink col-flex-sm">
+                <% if (page.cover) : %>
+                <figure class="space-minus-top-mili-xs space-minus-h-base-xs">
+                    <img src="<%= page.url %><%= page.cover %>" alt="<%= page.title %>">
+                </figure>
+                <% end %>
+                <p class="txt-date space-auto-top-xs space-out-bottom-zero-xs">
+                    <% if (page.badge) : %>
+                    <span class="badge space-out-right-nano-xs <% if (page.badgetype) : %><%= page.badgetype %><% end %>"><%= page.badge %></span>
+                    <% end %>
+                    <time datetime="<%= page.created_at %>">
+                        <%=@moment(page.created_at).format('DD MMMM YYYY') %>
+                    </time>
+                </p>
+                <% if (page.starred) : %>
+                    <div class="blogwall-item-star">★ <span class="blogwall-readable-only">Популярная статья</span></div>
+                <% end %>
+                <h3 class="space-out-top-nano-xs">
+                    <a href="<%= page.url %>" class="link blogwall-link" tabindex="-1"><%= page.title %></a>
+                </h3>
+                <div><%- @cuttedContent page.contentRenderedWithoutLayouts %></div>
+                <aside class="space-auto-top-xs row row-between-xs">
+                    <a class="link col-xs-shrink" href="<%= page.url %>#disqus_thread" data-disqus-identifier="<%= page.disqusid %>" tabindex="-1">Комментарии</a>
+                    <div class="likely-inline-container col-xs-shrink">
+                        <div class="likely likely-small" data-url="<%= @site.canonicalUrl %><%= page.url %>" data-title="<%= page.title %>">
+                            <div class="facebook"  tabindex="0" role="link" aria-label="Поделиться в Фейсбуке"></div>
+                            <div class="twitter"   tabindex="0" role="link" aria-label="Поделиться в Твиттере" data-via="paul_radzkov"></div>
+                            <div class="vkontakte" tabindex="0" role="link" aria-label="Поделиться в Контакте"></div>
+                            <div class="telegram"  tabindex="0" role="link" aria-label="Поделиться в Телеграме"></div>
+                        </div>
+                    </div>
+                </aside>
+                <a href="<%= page.url %>" class="link blogwall-fauxlink--overlay"><span class="blogwall-readable-only">Читать статью «<%= page.title %>»</span></a>
+            </section>
+        <% end %>
+        <% for page in @getCollection("articles").toJSON().slice(1): %>
+            <%- @partial('blogwallitem', true, {page: page}) %>
+        <% end %>
+    </div>
+</section>
+
+<section class="space-out-top-kilo-xs space-out-top-mega-lg space-out-bottom-base-xs" id="faq">
+    <h1>Написал</h1>
+    <p>Мнение по самым разным вещам о предпринимательстве, финансах, домоуправлении и том, что волнует. Кое-что из <a href="https://blog.furye.ru/">заметок в блоге</a> и сторонних изданиях</p>
+
+    <div class="row faq">
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
+            <h5 class="space-out-bottom-nano-xs">Нескучные финансы</h5>
+            <p><a target="_blank" rel="noopener" href="https://gazeta.noboring-finance.ru/5-stadiy">Пять стадий принятия финансового факта</a></p>
+            <p><a target="_blank" rel="noopener" href="https://gazeta.noboring-finance.ru/who-is-finolog">Как финансовый директор помогает бизнесу</a></p>
+            <p><a target="_blank" rel="noopener" href="https://gazeta.noboring-finance.ru/kak-nanyat">Как нанять специалиста по финансам</a></p>
+            <p><a target="_blank" rel="noopener" href="https://gazeta.noboring-finance.ru/kogda-nanimat-finologa">Когда пора нанять финансового директора</a></p>
+            
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
+         
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
+       
+        </div>
+    </div>
+</section>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
