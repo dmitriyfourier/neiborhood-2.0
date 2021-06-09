@@ -1,0 +1,5 @@
+   <a class="clink-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="<%- @site.telegram_link %>" target="_blank" rel="noopener">Телеграм</a>
+    <a class="clink-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="<%- @site.fb_link %>" target="_blank" rel="noopener">Фэйсбук</a>
+    <a class="clink-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="<%- @site.inst_link %>" target="_blank" rel="noopener">Инстаграм</a>
+    <a class="clink-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="<%- @site.vk_link %>" target="_blank" rel="noopener">Вконтакте</a>
+    <a class="clink-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="<%- @site.twitter_link %>" target="_blank" rel="noopener">Твиттер</a>

@@ -1,13 +1,21 @@
-<footer class="allpage--footer page-footer content-width copyright">
-	<p class="space-out-bottom-mili-xs">
-		© <%- @site.author %>
-		<% if (@document.created_at) : %>
-			<%= @moment(@document.created_at).format('YYYY') %>.
-		<% else : %>
-			2017&ndash;<%= @moment(@now).format('YYYY') %>.
-		<% end %>
-        <br>
-		<% if ((!@document.kind) or (@document.kind != 'article')) : %>
-		<% end %>
-	</p>
+<footer class="row row-middle-md space-out-bottom-kilo-xs space-out-bottom-base-lg">
+	<div class="col-xs-12 col-md-shrink">
+
+				<p class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm"><strong><%= @site.title %></strong></p>
+
+	</div>
+	<div class="col-xs-12 col-md">
+		<nav class="row  space-in-left-micro-md">
+			<%- @partial('social') %>
+			<p class="col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm space-auto-left-sm">		© <%- @site.author %>
+				<% if (@document.created_at) : %>
+					<%= @moment(@document.created_at).format('YYYY') %>.
+				<% else : %>
+					2020&ndash;<%= @moment(@now).format('YYYY') %>.
+				<% end %>
+				<br>
+				<% if ((!@document.kind) or (@document.kind != 'article')) : %>
+				<% end %></p>
+		</nav>
+	</div>
 </footer>
