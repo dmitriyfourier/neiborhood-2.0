@@ -1,0 +1,12 @@
+---
+layout: 'homepage'
+title: 'О проекте Добрососедство 2.0'
+description: 'Проект об эффективно домоуправлении, ЖКХ и коммуникациях с'
+og_image: '/i/og/og-index.png'
+---
+<h1>О проекте</h1>
+<h2>Идея</h2>
+<h2>Замысел</h2>
+<h2>Миссия</h2>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>

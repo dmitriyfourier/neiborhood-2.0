@@ -34,17 +34,10 @@
 <body class="global-maw col-flex-xs space-in-mili-xs space-in-base-sm space-in-wide-kilo-lg">
     <header class="row row-middle-md space-out-bottom-kilo-xs space-out-bottom-base-lg">
         <div class="col-xs-12 col-md-shrink">
-            <% if (@document.url != '/') : %><a class="logo link" href="/"><% else : %><span class="logo"><% end %>
-                <span class="logo-txt">
-                    <span class="logo-name"><%- @site.title %></span>
-                </span>
-            <% if (@document.url != '/') : %></a><% else : %></span><% end %>
-        </div>
-        <div class="col-xs-12 col-md">
-            <nav class="row space-in-left-kilo-xs space-in-left-micro-md">
-                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/#projects"><strong>Руководства</strong></a>
-                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/podcasts"><strong>Рекомендации</strong></a>
-                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/podcasts"><strong>Подкаст</strong></a>
+            <nav class="row">
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/guides/"><strong>Руководства</strong></a>
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/recomendations/"><strong>Рекомендации</strong></a>
+                <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/podcasts/"><strong>Подкаст</strong></a>
                 <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="https://journal.neighborliness.ru/tags/news/"><strong>Новости</strong></a>
                 <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm" href="/about/"><strong>О проекте</strong></a>
                 <a class="link-novisited col-xs-12 col-sm-shrink space-in-bottom-nano-xs space-in-v-nano-sm space-auto-left-sm" href="https://journal.neighborliness.ru/">Журнал →</a>
