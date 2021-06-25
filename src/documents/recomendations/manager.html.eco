@@ -12,22 +12,30 @@ og_image: '/i/og/og-guides.png'
                 <div class="row row-between-xs">
                     <p class="col-xs-shrink col-sm-12 sitelogo"><strong>Оглавление</strong></p>
                     <nav class="col-xs-shrink col-sm-12 sitenav">
-                        <ul class="row">
-                            <li class="col-xs-shrink col-sm-12"><a href="#target">Цель должности</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#CKP">ЦКП</a></li>
-                            <li class="col-xs-shrink col-sm-12"><strong>Обязанности:</strong></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#product">По&nbsp;производству продукта</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#sosedi">В&nbsp;отношении жителей дома</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#sovet">В&nbsp;отношении совета дома</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#emploer">В&nbsp;отношении коллег</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#gover">По отношению к государству</a></li>
-                            <li class="col-xs-shrink col-sm-12"><strong>Действия:</strong></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#">Ключевые качества</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#kpi">Ключевые показатели</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#succses">Успешные действия</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#mistake">Типовые ошибки</a></li>
-                            <li class="col-xs-shrink col-sm-12"><a href="#comm">Линии общения</a></li>
-                        </ul>
+                            <ul class="row">
+                                <li class="col-xs-shrink col-sm-12"><a href="#target">Цель должности</a></li>
+                                <li class="col-xs-shrink col-sm-12"><a href="#CKP">ЦКП</a></li>
+                            </ul>
+                        <p>
+                            <h4>Обязанности:</h4>
+                            <ul class="row">
+                                <li class="col-xs-shrink col-sm-12">—&nbsp;<a href="#product">к производству</a></li>
+                                <li class="col-xs-shrink col-sm-12">—&nbsp;<a href="#sosedi">к жителями</a></li>
+                                <li class="col-xs-shrink col-sm-12">—&nbsp;<a href="#sovet">к совету дома</a></li>
+                                <li class="col-xs-shrink col-sm-12">—&nbsp;<a href="#emploer">к колегам</a></li>
+                                <li class="col-xs-shrink col-sm-12">—&nbsp;<a href="#gover">к государству</a></li>
+                            </ul>
+                        </p>
+                        <p>
+                            <h4>Общее</h4>
+                            <ul class="row">
+                                <li class="col-xs-shrink col-sm-12"><a href="#qualities">Качества</a></li>
+                                <li class="col-xs-shrink col-sm-12"><a href="#kpi">Показатели</a></li>
+                                <li class="col-xs-shrink col-sm-12"><a href="#succses">Победы</a></li>
+                                <li class="col-xs-shrink col-sm-12"><a href="#mistake">Ошибки</a></li>
+                                <li class="col-xs-shrink col-sm-12"><a href="#comm">Коммуникации</a></li>
+                            </ul>
+                        </p>
                     </nav>
                 </div>
             </div>
@@ -61,7 +69,7 @@ og_image: '/i/og/og-guides.png'
                 <h2 id="sovet">Обязанности в&nbsp;отношении совета дома</h2>
                 <h2 id="emploer">Обязанности в&nbsp;отношении коллег</h2>
                 <h2 id="gover">Обязанности в&nbsp;отношении контролирующих и&nbsp;государственных органов</h2>
-                <h2>Ключевые качества</h2>
+                <h2 id="qualities">Ключевые качества</h2>
                 <h2 id="kpi">Ключевые метрики</h2>
                 <h2 id="comm">Линии коммуникации</h2>
                 <h2 id="succses">Успешные действия</h2>
