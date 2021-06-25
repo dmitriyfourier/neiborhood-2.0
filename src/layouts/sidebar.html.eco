@@ -31,7 +31,7 @@
     <%- @partial('twittercard') %>
     <%- @partial('googleAnalytics') %>
 </head>
-<body class="global-maw col-flex-xs space-in-mili-xs space-in-base-sm space-in-wide-kilo-lg">
+<body>
     <header class="row row-middle-md space-out-bottom-kilo-xs space-out-bottom-base-lg">
         <div class="col-xs-12 col-md-shrink">
             <% if (@document.url != '/') : %><a class="logo link" href="/"><% else : %><span class="logo"><% end %>
@@ -51,12 +51,10 @@
             </nav>
         </div>
     </header>
-    <article class="flex-grow-xs" role="main">
-        <%- @content %>
-    </article>
-
-
-    <%- @partial('footer') %>
+    <%- @content %>
+    <div class="space-out-top-base-lg">
+        <%- @partial('footer') %>
+    </div>
     <%- @partial('docpadscripts') %>
     <%- @partial('yandexmetrika') %>
     <%- @partial('upup') %>

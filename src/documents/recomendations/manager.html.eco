@@ -1,0 +1,74 @@
+---
+layout: 'sidebar'
+title: 'Управленец 2.0'
+description: 'Что из себя представляет профессия Председателя ТСЖ или управленца в МКД'
+og_image: '/i/og/og-guides.png'
+---
+
+<div class="allpage container-fluid col-flex-xs">
+    <div class="allpage-body flex-grow-xs row">
+        <aside class="col-xs-12 col-sm-min col-first-xs col-last-sm col-last-lg asidecolumn">
+            <div class="fixed-md">
+                <div class="row row-between-xs">
+                    <p class="col-xs-shrink col-sm-12 sitelogo"><strong>Оглавление</strong></p>
+                    <nav class="col-xs-shrink col-sm-12 sitenav">
+                        <ul class="row">
+                            <li class="col-xs-shrink col-sm-12"><a href="#target">Цель должности</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#CKP">ЦКП</a></li>
+                            <li class="col-xs-shrink col-sm-12"><strong>Обязанности:</strong></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#product">По&nbsp;производству продукта</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#sosedi">В&nbsp;отношении жителей дома</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#sovet">В&nbsp;отношении совета дома</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#emploer">В&nbsp;отношении коллег</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#gover">По отношению к государству</a></li>
+                            <li class="col-xs-shrink col-sm-12"><strong>Действия:</strong></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#">Ключевые качества</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#kpi">Ключевые показатели</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#succses">Успешные действия</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#mistake">Типовые ошибки</a></li>
+                            <li class="col-xs-shrink col-sm-12"><a href="#comm">Линии общения</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+        <article class="col-xs-12 col-sm maincolumn">
+        
+            <section class="content">
+                <h1>Управленец&nbsp;2.0</h1>
+                <p>Управлять многоквартирным домом&nbsp;— это работа. Управленец, будь то&nbsp;председатель ТСЖ, будь то&nbsp;активист, который решил привести дом в&nbsp;порядок&nbsp;— выбрал для себя путь управленца.</p>
+                <blockquote class="accent-txt">
+                Управлять многоквартиным домом&nbsp;— это профессия
+                </blockquote>
+                <p>Должность председателя ТСЖ&nbsp;— избираемая должность. Хотя председателя и&nbsp;выбирают, то&nbsp;по&nbsp;смыслу его нанимают на&nbsp;работу.</p>
+                <p>Собственники делегируют часть функций от&nbsp;себя этому человеку, чтобы он&nbsp;поддерживал недвижимость в&nbsp;порядке.</p>
+                <p>Но&nbsp;если председателя и&nbsp;управленца нанимают, давайте разберемся, чем конкретно должен заниматься этот человек, и&nbsp;за&nbsp;что брать на&nbsp;себя ответсвтенность</p>
+    
+                <h2 id="target">Цель должности</h2>
+                <blockquote class="accent-txt">
+    
+                </blockquote>
+                <h2 id="CKP">Ценный конечный продукт должности</h2>
+                <p>Если управлять&nbsp;— это профессия и&nbsp;работа, то&nbsp;у&nbsp;работы должен быть результат. Давайте назовем это Ценным конечным продуктом</p>
+                <blockquote>
+                <p><strong>Ценный конечный продукт</strong> </p>
+                <p> <strong>Ценный</strong>&nbsp;— имеет цену для собственников жилья, они оплачивают за&nbsp;эту ценность деньги, и&nbsp;платят управляющему МКД</p>
+                <p><b>Конечный</b>&nbsp;— не&nbsp;требует доработок, пригоден к&nbsp;использованию</p>
+                <p> <strong>Продукт</strong>&nbsp;— предмет, явление, услуга, которые появились в&nbsp;результате труда и&nbsp;пригодны для обмена на&nbsp;деньги, или что-то еще. </p>
+                </blockquote>
+                <h2 id="product">Обязанности по&nbsp;производству продукта</h2>
+                <h2 id="sosedi">Обязанности в&nbsp;отношении жителей дома</h2>
+                <h2 id="sovet">Обязанности в&nbsp;отношении совета дома</h2>
+                <h2 id="emploer">Обязанности в&nbsp;отношении коллег</h2>
+                <h2 id="gover">Обязанности в&nbsp;отношении контролирующих и&nbsp;государственных органов</h2>
+                <h2>Ключевые качества</h2>
+                <h2 id="kpi">Ключевые метрики</h2>
+                <h2 id="comm">Линии коммуникации</h2>
+                <h2 id="succses">Успешные действия</h2>
+                <h2 id="mistake">Типичные ошибки</h2>
+            </section>
+
+        </article>
+       
+    </div>
+</div>
