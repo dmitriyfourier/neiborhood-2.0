@@ -1,0 +1,108 @@
+---
+layout: 'link'
+title: 'О проекте Добрососедство 2.0'
+description: 'Каких целей и замысла придерживается проект Добрососедство 2.0'
+og_image: '/i/og/og-about.png'
+---
+<div class="main-container">
+    <div class="background-container">
+
+        <div class="color-container" style="background-color: #000000"></div>
+    </div>
+    <div class="card-container avatar-large font-pt-roboto">
+        <div class="card">
+            <div class="card-avatar avatar-size-large">
+                <a href="https://neighborliness.ru/"><img src="/i/logo-link.png" title="Добрососедство 2.0" alt="Добрососедство 2.0"></a>
+            </div>
+            <div class="card-name">Добрососедство 2.0</div>
+            <div class="card-description">
+                Журнал о домоуправлении будущего, жкх и коммуникации с соседями 🏡 </div>
+            <!--Кнопка-->
+            <!--<div class="card-main-button">
+                    <a href="https://teletype.link/mainButton/YnzAje8DIqL76oOsQSj7exg7IypUdlXtESZ4Q_Tqin7IGvrX2KoTjc5taeJ-ClWV" target="_blank" style="background-color: #000; color: #fff;">
+                        Тестовая кнопка                    </a>
+                </div>-->
+
+            <div class="card-buttons-container">
+
+                <div class="buttons-row justify-around">
+
+                    <div class="button-container">
+                        <a style="background: #000; color: #fff" href="https://vk.com/neighborliness"
+                            class="messenger-button vk mono"> <i class="fab fa-vk"></i></a>
+                        <span>ВКонтакте</span>
+                    </div>
+
+                    <div class="button-container">
+                        <a style="background: #000; color: #fff" href="https://t.me/neighborliness"
+                            class="messenger-button telegram mono"> <i class="fab fa-telegram-plane"></i> </a>
+                        <span>Телеграм</span>
+                    </div>
+
+                    <div class="button-container">
+                        <a style="background: #000; color: #fff" href="https://www.facebook.com/neighborliness.ru"
+                            class="messenger-button facebook mono"> <i class="fab fa-facebook-f"></i> </a>
+                        <span>Фейсбук</span>
+                    </div>
+
+                </div>
+
+                <div class="buttons-row justify-around">
+
+                    <div class="button-container">
+                        <a style="background: #000; color: #fff"
+                            href="https://www.youtube.com/channel/UCTCbc_3su3BPIZz1SApHdDA"
+                            class="messenger-button youtube mono"> <i class="fab fa-youtube"></i> </a>
+                        <span>Ютуб</span>
+                    </div>
+
+                    <div class="button-container">
+                        <a style="background: #000; color: #fff" href="https://instagram.com/neighborliness.ru"
+                            class="messenger-button instagram mono"> <i class="fab fa-instagram"></i> </a>
+                        <span>Инстаграм</span>
+                    </div>
+
+                    <div class="button-container">
+                        <a style="background: #000; color: #fff" href="https://twitter.com/neighborliness.ru"
+                            class="messenger-button twitter mono"> <i class="fab fa-twitter"></i> </a>
+                        <span>Твиттер</span>
+                    </div>
+
+                </div>
+
+                <div class="buttons-row justify-center">
+
+                    <div class="button-container">
+                        <a style="background: #000; color: #fff"
+                            href="https://github.com/dmitriyfourier/neighborliness.github.io"
+                            class="messenger-button github mono"> <i class="fab fa-github-alt"></i> </a>
+                        <span>Гитхаб</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card-links-container">
+                <div class="block-container">
+                    <a href="https://neighborliness.ru/"></a>
+                    <div class="icons-container">
+                        <img src="/i/emoji/house.png" alt="emoji"></div>
+                    <div class="text-container">Добрососедство 2.0</div>
+                </div>
+                <div class="block-container">
+                    <a href="https://journal.neighborliness.ru/"></a>
+                    <div class="icons-container">
+                        <img src="/i/emoji/pallete.png" alt="emoji"></div>
+                    <div class="text-container">Первое место</div>
+                </div>
+                <div class="block-container">
+                    <a href="https://neighborliness.mave.digital/"></a>
+                    <div class="icons-container">
+                        <img src="/i/emoji/studio-mic.png" alt="emoji"></div>
+                    <div class="text-container">Подкаст</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
