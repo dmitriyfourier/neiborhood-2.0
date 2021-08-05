@@ -44,7 +44,6 @@
     <%- @content %>
     <%- @partial('scripts') %>
     <%- @partial('docpadscripts') %>
-    <%- @partial('disqusscripts') %>
     <%- @partial('yandexmetrika') %>
     <%- @partial('offlinejs') %>
 </html>
