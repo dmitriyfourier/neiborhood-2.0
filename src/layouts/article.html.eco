@@ -38,7 +38,6 @@
 
     <%- @partial('opengraph') %>
     <%- @partial('twittercard') %>
-    <%- @partial('googleAnalytics') %>
 </head>
 <body class="allpage allpage-max-width allpage-stickyfooter layout-<%- @document.kind %>" id="top">
     <header class="allpage--header page-header">

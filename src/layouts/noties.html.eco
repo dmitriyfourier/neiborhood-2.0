@@ -10,6 +10,8 @@
     <meta name="description" content="<%= @getPreparedDescription() %>" />
     <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <script src="https://kit.fontawesome.com/3a06cfeebe.js" crossorigin="anonymous"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 
     <!-- DocPad Meta -->
     <%- @getBlock('meta').toHTML() %>
@@ -29,6 +31,7 @@
     <meta property="fb:pages" content="100009169309589" />
     <%- @partial('opengraph') %>
     <%- @partial('twittercard') %>
+    <%- @partial('googleAnalytics') %>
 </head>
 <body class="global-maw col-flex-xs space-in-mili-xs space-in-base-sm space-in-wide-kilo-lg">
     <header class="row row-middle-md space-out-bottom-kilo-xs space-out-bottom-base-lg">

@@ -1,0 +1,117 @@
+---
+layout: 'noties'
+title: 'Объявления в подъезд 2.0'
+description: 'Как информировать соседей так, чтобы все были в курсе того, что происходит'
+og_image: '/i/og/og-guides.png'
+---
+<h1>Объявления&nbsp;2.0</h1>
+<p>С подобными объявлениями</p>
+
+
+<section>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+
+		<div class="fotorama">
+			<img src="/i/noties/hot-water-new.png" data-caption="Ну теперь, хоть как-то можно жить">
+			<img src="/i/noties/hot-water-old.png"data-caption="Мы все умрём">
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<h2>Отключение горячей воды</h2>
+		<i class="fab fa-google-drive"></i> <i class="fab fa-figma"></i>
+    </div>
+</section>
+
+<section>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+
+		<div class="fotorama">
+			<img src="/i/noties/cold-water-new.png" data-caption="Новый красивый вариант">
+			<img src="/i/noties/cold-water-old.png" data-caption="Старый, страшненький, без уважения">
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<h2>Отключение холодной воды</h2>
+    </div>
+</section>
+
+<section>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+
+		<div class="fotorama">
+			<img src="">
+			<img src="">
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<h2>Отключение всей воды</h2>
+    </div>
+</section>
+
+<section>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+
+		<div class="fotorama">
+			<img src="/i/noties/elec-new.png" data-caption="Светло, хорошо">
+			<img src="/i/noties/elec-old.png" data-caption="Мрак какой-то"> 
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<h2>Отключение электричества</h2>
+    </div>
+</section>
+
+<section>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+
+		<div class="fotorama">
+			<img src="/i/noties/gas-new.png" data-caption="Новый, вежливый, заботливый">
+			<img src="/i/noties/gas-old.png" data-caption="Старый, потрёпанный, угрожающий">
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<h2>Проверка газа</h2>
+    </div>
+</section>
+
+<section>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+
+		<div class="fotorama">
+			<img src="/i/noties/vent-new.png" data-caption="ой, хорошо">
+			<img src="/i/noties/vent-old.png" data-caption="Либо дует, либо душно">
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<h2>Проверка вентиляции</h2>
+    </div>
+</section>
+
+<section>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+
+		<div class="fotorama">
+			<img src="/i/noties/uborka-snega-new.png" data-caption="Новый красивый вариант">
+			<img src="/i/noties/uborka-snega-old.png" data-caption="Старый страшненький">
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<h2>Уборка снега</h2>
+    </div>
+</section>
+<h2>Предложите совое объявление в коллекцию</h2>
+<script src="https://yastatic.net/s3/frontend/forms/_/embed.js"></script><iframe src="https://forms.yandex.ru/u/610cea1848f816461babda65/?iframe=1" frameborder="0" name="ya-form-610cea1848f816461babda65" width="650"></iframe>

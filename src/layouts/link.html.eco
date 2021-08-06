@@ -39,7 +39,6 @@
 
     <%- @partial('opengraph') %>
     <%- @partial('twittercard') %>
-    <%- @partial('googleAnalytics') %>
 </head>
     <%- @content %>
     <%- @partial('scripts') %>
