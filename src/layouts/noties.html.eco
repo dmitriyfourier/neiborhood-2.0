@@ -31,7 +31,6 @@
     <meta property="fb:pages" content="100009169309589" />
     <%- @partial('opengraph') %>
     <%- @partial('twittercard') %>
-    <%- @partial('googleAnalytics') %>
 </head>
 <body class="global-maw col-flex-xs space-in-mili-xs space-in-base-sm space-in-wide-kilo-lg">
     <header class="row row-middle-md space-out-bottom-kilo-xs space-out-bottom-base-lg">
